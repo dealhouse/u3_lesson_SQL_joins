@@ -46,7 +46,7 @@ You can imagine that we'd like to use this information in a number of ways, such
 Let's build out a library database, starting with books and authors.
 Note how id's are PRIMARY KEYs, and relationships are established when these ids are referenced by other tables.
 
-`seed.sql`
+`schema.sql`
 
 ```sql
 CREATE TABLE authors (
